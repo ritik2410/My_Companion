@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Companion"
+        android:textSize="42dp"
+        android:textColor="#f5f5f5"
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:id="@+id/img"
+        android:src="@drawable/woman"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Companion</string>
+    <string name="account"><u>Already have an Account?</u></string>
+    <string name="title_activity_maps">Map</string>
+</resources>
